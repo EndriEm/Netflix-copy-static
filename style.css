@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section1{
+    text-align: center;
+    background: url(assets/background.jpg);
+    background-position: center;
+    height: 600px;
+    width: cover;
+
+}
+
+.section1-wrapper{
+   
+}
+
+.header-wrp{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 20px;
+    gap: 1000px;
+    
+    
+}
+
+.netflix{
+    color: #e50914;
+    font-style: oblique;
+    
+    
+    
+}
+
+.sign-button{
+    background-color: #e50914;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 6px;
+    border-color: #e50914;
+    margin-right: 20px;
+    padding: 2px 2px;
+}
+
+.section1-wrapper{
+
+}
+    
+
+.tittle{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.subtittle1{
+    color: white;
+    font-size: 30px;
+}
+
+.subtittle2{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button-GS{
+    background-color: #e50914;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px 40px;
+    border-radius: 2px;
+    border-color: #e50914;
+    margin-top: 10px;
+}
+
+.email{
+    font-size: 20px;
+}
