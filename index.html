@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="assets/Netflix_2015_N_logo.svg.png" />
 </head>
 
 <body>
-
     <main class="main">
         <section1 class="section1">
-            <div class="header-wrp">
-                <h1 class="netflix">NETFLIX</h1>
-                <Button class="sign-button" href="Sign-In.html">Sign In</Button>
-            </div>
-            <div class="section1-wrapper">
-                <h2 class="tittle">Unlimited movies, TV shows, and more.</h2>
-                <h3 class="subtittle1">Watch anywhere. Cancel anytime.</h3>
-                <h3 class="subtittle2">Ready to watch? Enter your email to create or restart your membership.</h3>
-                <input id="email" type="email" placeholder="Email address">
-                <button class="button-GS">Get Started</button>
-
+            <div class="overlay"></div>
+            <div class="content-above-overlay">
+                <div class="header-wrp">
+                    <h1 class="netflix"><b>NETFLIX</b></h1>
+                    <button class="sign-button" href="Sign-In.html">Sign In</button>
+                </div>
+                <div class="section1-wrapper">
+                    <h2 class="title">Unlimited movies, TV shows, and more.</h2>
+                    <h3 class="subtitle1">Watch anywhere. Cancel anytime.</h3>
+                    <h3 class="subtitle2">
+                        Ready to watch? Enter your email to create or restart your
+                        membership.
+                    </h3>
+                    <div class="get-started">
+                        <input id="email" type="email" placeholder="Email address" class="input-GS" />
+                        <button class="button-GS">Get Started</button>
+                    </div>
+                </div>
             </div>
         </section1>
-    </main>
 
+        <section2 class="section2">
+            <div class="kids-section">
+                <h1 class="kids-title">Create profiles for kids.</h1>
+                <h3 class="kids-subtitle">Send kids on adventures with their favorite characters in a space made just
+                    for them—free with your membership.</h3>
+            </div>
+        </section2>
+
+        <section3 class="section3">
+            <div class="download-section">
+                <h1 class="download-title">Download your shows to watch offline.</h1>
+                <h3 class="download-subtitle">Save your favorites easily and always have something to watch.</h3>
+            </div>
+        </section3>
+
+        <section4 class="section4">
+            <h1 class="section4-h1">Frequently Asked Questions</h1>
+            <div class="faq-list">
+                <button class="button1"> What is Netflix?</button>
+                <button class="button2">How much does Netflix cost?</button>
+                <button class="button3">Where can I watch?</button>
+                <button class="button4">How do I cancel?</button>
+                <button class="button5">What can I watch on Netflix?</button>
+                <button class="button6">Is Netflix good for kids?</button>
+            </div>
+        </section4>
+    </main>
 </body>
+
 </html>

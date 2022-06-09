@@ -1,89 +1,258 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-}
-
-.main {
+  }
+  
+  .main {
     display: grid;
-    grid-template-columns: 1fr;
-}
-
-.section1{
+    row-gap: 8px;
+    background-color: #222;
+  }
+  
+  .section1 {
+    position: relative;
     text-align: center;
     background: url(assets/background.jpg);
     background-position: center;
-    height: 600px;
-    width: cover;
-
-}
-
-.section1-wrapper{
-   
-}
-
-.header-wrp{
+    background-size: cover;
+    height: 670px;
+  }
+  
+  .content-above-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  
+  .header-wrp {
     display: grid;
     grid-auto-flow: column;
-    padding-top: 20px;
-    gap: 1000px;
-    
-    
-}
-
-.netflix{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+  }
+  
+  .netflix {
     color: #e50914;
     font-style: oblique;
-    
-    
-    
-}
-
-.sign-button{
+  }
+  
+  .sign-button {
     background-color: #e50914;
     color: white;
     font-size: medium;
     font-family: sans-serif;
-    border-radius: 6px;
-    border-color: #e50914;
+    border-radius: 3px;
+    border-style: none;
     margin-right: 20px;
-    padding: 2px 2px;
-}
-
-.section1-wrapper{
-
-}
-    
-
-.tittle{
+    padding: 2px 18px;
+  }
+  
+  .section1-wrapper {
+      margin-top: 180px;
+  }
+  
+  .title {
+    margin: auto;
+    max-width: 600px;
     color: white;
     font-size: 50px;
     margin-bottom: 15px;
-}
-
-.subtittle1{
+  }
+  
+  .subtitle1 {
     color: white;
     font-size: 30px;
-}
-
-.subtittle2{
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .subtitle2 {
+    color: rgb(224, 219, 219);
     font-size: 18px;
     margin-top: 20px;
-}
-
-.button-GS{
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .button-GS {
     background-color: #e50914;
     color: white;
     font-size: 30px;
     font-family: sans-serif;
     padding: 5px 40px;
-    border-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     border-color: #e50914;
-    margin-top: 10px;
+    border-style: none;
+  }
+  
+  
+  #email {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  
+  #email:focus {
+    outline: none;
+    border-color: lightblue;
+  }
+  
+  .get-started {
+    margin-top: 30px;
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    height: 50px;
+  }
+
+  .section2{
+    text-align: center;
+    color: white;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    background-image: url(assets/kids.png);
+    background-size: 40%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 500px;
+    grid-template-columns: 1fr fr;
+    
+  }
+
+  .kids-title{
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .kids-subtitle{
+      font-size: 26px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(209, 209, 209);
+  }
+
+  .section3{
+    text-align: left;
+    color: white;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    background-image: url(assets/iphoneSE.jpg);
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 500px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .download-title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
 }
 
-.email{
-    font-size: 20px;
+.download-subtitle{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 209, 209);
+    padding-left: 150px;
+}
+
+.section4{
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    height: 700px;
+}
+
+.section4-h1{
+    color: white;
+    padding-top: 40px;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.faq-list{
+    row-gap: 30px;
+    background-color: #e50914;
+    text-align: left;
+}
+
+
+.button1{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
+}
+
+
+.button2{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
+}
+
+
+.button3{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
+}
+
+
+.button4{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
+}
+
+
+.button5{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
+}
+
+
+.button6{
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px 300px;
+    margin-bottom: 10px;
 }
